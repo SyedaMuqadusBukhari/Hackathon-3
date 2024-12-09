@@ -5,7 +5,7 @@ import blog1 from "../assets/blog1.png";
 import calender from "../assets/Calendar.png";
 import Admin from "../assets/Admin.png";
 
-import blog2 from "../assets/blog2.png";
+
 import blog3 from "../assets/blog3.png";
 import blog4 from "../assets/blog4.png";
 
@@ -51,7 +51,7 @@ export default function BlogDetails() {
 
     <div className="bg-[#FF9F0D] p-4 mt-8 rounded-md">
       <div className="flex items-center">
-        <Image src={blog2} alt="" width={48} height={48} className="mr-4" />
+        <Image src={blog1} alt="" width={48} height={48} className="mr-4" />
         <p className="text-white text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...
         </p>
