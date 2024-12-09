@@ -45,7 +45,7 @@ export default function Navbar() {
           className="text-orange-500 md:hidden cursor-pointer"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          {menuOpen ? <HiX className="w-6 h-6" /> : <HiMenuAlt3 className="w-6 h-6" />}
+          {menuOpen ? <HiX className="w-6 h-6" /> : <HiMenuAlt3 className="h-6 w-6" />}
         </div>
 
         {/* Links */}
